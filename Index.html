@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Mi pagina</title>
+</head>
+<body>
+    <div class="container">
+        <h2>PRESUPUESTO</h2>
+        <div class="section">
+            <h3>Ingresos</h3>
+            <input type="text" id="incomeInput" placeholder="Escribe tu ingreso">
+            <input type="number" id="amountInput" placeholder="Ingresa la cantidad">
+            <button id="addIncomeBtn">Agregar</button>
+            <ul id="incomeList">
+            </ul>
+            <h3>Total Ingresos: Q<span id="totalIncome">0</span></h3>
+        </div>
+
+        <div class="section">
+            <h3>Egresos</h3>
+            <input type="text" id="expenseInput" placeholder="Escribe tu egreso">
+            <input type="number" id="expenseAmountInput" placeholder="Ingresa la cantidad">
+            <button id="addExpenseBtn">Agregar</button>
+            <ul id="expenseList">
+            </ul>
+            <h3>Total Egresos: Q<span id="totalExpense">0</span></h3>
+        </div>
+
+        <h3>Balance: Q<span id="balance">0</span></h3>
+    </div>
+    <!-- <div>
+        <h4>José Palencia-Gabriel Mencos</h4>
+    </div> -->
+    <script src="Main.js"></script>
+</body>
+</html>
